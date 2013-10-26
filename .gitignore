@@ -4,3 +4,5 @@ build/classes
 build/cobertura
 build/resources
 build/test-results
+build/tmp
+build/libs

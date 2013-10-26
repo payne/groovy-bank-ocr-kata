@@ -1,6 +1,9 @@
 apply plugin: 'groovy'
-def githubBase = 'https://raw.github.com/valkolovos/gradle_cobertura/master/ivy'
-apply from: "${githubBase}/gradle_cobertura/gradle_cobertura/1.0-rc4/coberturainit.gradle"
+//def githubBase = 'https://raw.github.com/valkolovos/gradle_cobertura/master/ivy'
+//apply from: "${githubBase}/gradle_cobertura/gradle_cobertura/1.0-rc4/coberturainit.gradle"
+def coberturaPluginVersion="1.2.1";
+//apply from: 'https://github.com/valkolovos/gradle_cobertura/raw/master/repo/gradle_cobertura/gradle_cobertura/${coberturaPluginVersion}/coberturainit.gradle'
+apply from: 'https://github.com/valkolovos/gradle_cobertura/raw/master/repo/gradle_cobertura/gradle_cobertura/1.2.1/coberturainit.gradle'
 
 sourceCompatibility = 1.6
 version = '1.0'
